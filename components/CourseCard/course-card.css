@@ -14,6 +14,7 @@
 .course-card img {
   width: 100%;
   user-select: none;
+  -webkit-user-select: none;
   object-fit: cover;
   object-position: 50% 50%;
 }

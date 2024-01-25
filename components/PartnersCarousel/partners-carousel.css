@@ -6,6 +6,8 @@
   max-height: 100px;
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
+
   height: auto;
 }
 
@@ -38,6 +40,8 @@
 
 .carousel-image {
   user-select: none;
+  -webkit-user-select: none;
+
   max-width: 230px;
   object-fit: contain;
   object-position: 50% 50%;

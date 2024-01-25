@@ -147,7 +147,7 @@ class PartnersCarousel extends HTMLElement {
   render() {
     this.imgLinks = JSON.parse(this.partnerImageLinks);
     this.innerHTML = `
-    <button class="arrow carousel-left-arrow">
+    <button title="arrow carousel-left-arrow" class="arrow carousel-left-arrow">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 41">
         <path style="fill:var(--small-ui-background-color)" d="M20.3 40.8 0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"></path>
       </svg>
@@ -167,13 +167,13 @@ class PartnersCarousel extends HTMLElement {
             }" />
         </div>
         <div class="carousel-button-group">
-          <button class="carousel-button"></button>
-          <button class="carousel-button"></button>
-          <button class="carousel-button"></button>
+          <button title="carousel-button1" class="carousel-button"></button>
+          <button title="carousel-button2" class="carousel-button"></button>
+          <button title="carousel-button3" class="carousel-button"></button>
         </div>
       </div>
     </div>
-    <button class="arrow carousel-right-arrow">
+    <button title="arrow carousel-right-arrow" class="arrow carousel-right-arrow">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 41">
         <path style="fill:var(--small-ui-background-color)" d="M20.3 40.8 0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"></path>
       </svg>

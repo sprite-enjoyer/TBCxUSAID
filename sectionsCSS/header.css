@@ -99,6 +99,7 @@
 
 #mobile-header-dialog {
   width: fit-content;
+  width: -moz-fit-content;
   position: fixed;
   margin: 0;
 }
