@@ -58,3 +58,25 @@
 .accordion1-break {
   height: 40px;
 }
+
+@media (max-width: 900px) {
+  .accordion-container {
+    width: 100%;
+  }
+
+  .accordion-top-part {
+  }
+
+  .accordion-title {
+    font-size: 16px;
+  }
+
+  .accordion-content {
+  }
+
+  .content-shown {
+  }
+
+  .accordion1-break {
+  }
+}
